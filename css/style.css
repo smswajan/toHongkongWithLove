@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway';
+    scroll-behavior: smooth;
+}
+
+section.hero {
+    background-image: url('/img/Sun.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 0;
+}
+
+section.hero img.logo{
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 260px;
+}
+
+.menu{
+    background-color: #E4AC25;
+    padding: 18px 0;
+}
+.menu .col-md-3{
+    text-align: center;
+}
+.menu a.hero-menu{
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a.hero-menu:hover{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.img-round{
+    height: 120px;
+}
+
+section h2{
+    font-weight: 700;
+    font-family: 'Lato';
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+section h2.text-yellow{
+    color: #E4AC25;
+}
+
+section h4{
+    font-weight: 800;
+    font-family: inherit;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bg-yellow{
+    background-color: #E4AC25;
+}
+.bg-mateBlack{
+    background-color: #252525;
+}
+section{
+    padding: 70px 0;
+}
+
+.btnPink{
+    background-color: #C35A50;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 42px;
+    border-radius: 5px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+
+}
+.btnPink:hover{
+    color: #C35A50;
+    background-color: rgb(14, 14, 14);
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+
+/* Section 2 */
+section.intro{
+    padding: 70px 0;
+
+}
+
+.text-red{
+    color: red;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 20px;
+}
+.text-black{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+input.message{
+    height: 250px;
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[name='email']{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #252525;
+    margin: 0;
+    padding: 10px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+button.btnSubscribe{
+    margin: 0;
+    color: #252525;
+    background-color: #E4AC25;
+    border: none;
+    width: 22%;
+    display: inline-block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
